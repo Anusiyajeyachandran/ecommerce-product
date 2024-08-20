@@ -1,0 +1,34 @@
+.navbar {
+    background-color: #e10600;
+    padding: 5px 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-right: 10px;
+    background-color: #d10d00;
+    border-radius: 5px 5px 0 0;
+    transition: background-color 0.3s;
+}
+
+.navbar ul li:hover {
+    background-color: #b00c00;
+}
+
+.navbar ul li.active {
+    background-color: white;
+    color: #e10600;
+    font-weight: bold;
+    border-bottom: 3px solid #e10600; 
+}
+
