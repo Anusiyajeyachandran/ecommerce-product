@@ -1,0 +1,31 @@
+.header {
+    background-color: #151515;
+    color: white;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar select, .search-bar input, .search-bar button {
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.header-icons {
+    font-size: 14px;
+}
